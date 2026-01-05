@@ -1,0 +1,19 @@
+/*------------open Sans font------- */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(241, 234, 228, 0.966);
+}
+
+header {
+  background-color: rgb(238, 176, 126);
+}
