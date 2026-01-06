@@ -1,8 +1,25 @@
-/*------------open Sans font------- */
 
+/* ---------shared style---------- */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.logo span {
+  color: #FD6E0A;
+}
+.btn {
+  background-color: #FD6E0A;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 * {
@@ -14,6 +31,57 @@ body{
   background-color: rgba(241, 234, 228, 0.966);
 }
 
+
+
 header {
-  background-color: rgb(238, 176, 126);
+  background-color: #FFF8F3;
+  padding-top: 50px;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
+  align-items: center;
+}
+nav .menu a {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+}
+#banner {
+  margin: 46px 38px 0 223px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-container{
+  max-width: 585px;
+}
+#banner .banner-container h2 {
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 5px;
+}
+#banner .banner-container h1 {
+font-size: 85px;
+font-weight: bold;
+color: #474747;
+margin-bottom: 20px;
+}
+#banner .banner-container p {
+font-size: 18px;
+font-weight: none;
+color: #757575;
+margin-bottom: 30px;
 }
